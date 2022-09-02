@@ -72,13 +72,32 @@ p {
     text-align: center;
 }
 
-.p-container {
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 0 48px 0;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+h6 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: auto;
+    padding-right: 48px;
+}
+
+/* .p-container {
     display: flex;
     justify-content: center;
     gap: 24px;
     font-size: 18px;
 
-}
+} */
 
 .information {
     display: flex;
