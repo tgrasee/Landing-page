@@ -61,6 +61,17 @@ p {
     gap: 24px;
 }
 
+.box-one,
+.box-two,
+.box-three,
+.box-four {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    align-items: center;
+    text-align: center;
+}
+
 .p-container {
     display: flex;
     justify-content: center;
