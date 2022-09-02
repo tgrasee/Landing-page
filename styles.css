@@ -87,13 +87,37 @@ p {
     color: #1F2937;
 }
 
-h6 {
+.quote-section > h6 {
     font-size: 18px;
     font-weight: bold;
     /* margin-right: auto; */
     padding-right: 48px;
     /* justify-content: right; */
     margin: 0 0 0 auto;
+}
+
+.call {
+    background-color: #3882f6;
+    margin: 48px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.call > h6 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.call > p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.cta-button {
+    display: flex;
+    border: #F9FAF8;
+    border-radius: 4px;
 }
 
 /* .p-container {
