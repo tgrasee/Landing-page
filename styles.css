@@ -59,6 +59,7 @@ p {
     display: flex;
     justify-content: center;
     gap: 24px;
+    padding: 48px;
 }
 
 .box-one,
@@ -74,7 +75,9 @@ p {
 
 .quote-section {
     background-color: #E5E7EB;
-    padding: 0 48px 0;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
 }
 
 .quote {
@@ -87,8 +90,10 @@ p {
 h6 {
     font-size: 18px;
     font-weight: bold;
-    margin-right: auto;
+    /* margin-right: auto; */
     padding-right: 48px;
+    /* justify-content: right; */
+    margin: 0 0 0 auto;
 }
 
 /* .p-container {
